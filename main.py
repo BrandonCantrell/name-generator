@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     adj_str = random.choice(adjectives())
 
-    print("Release name:" + adj_str.title() + ' ' + ' ' + food_name)
+    print("Release name:" + adj_str.title() + ' ' + food_name)
 
 
 
