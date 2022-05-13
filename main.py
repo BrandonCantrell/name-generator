@@ -6,21 +6,23 @@ def food_data():
     f = open('food.json', "r")
     food_data = json.loads(f.read())
 
-    return food_data
+    if True:
+        return food_data
 
 def adjectives():
     a = open('adjectives.list', "r")
     adj_data = a.read()
     adj_list = adj_data.split(",")
 
-    return adj_list
+    if True:
+        return adj_list
 
 def restaurants():
     res_list = []
     for res in food_data():
         res_list.append(res['restaurant'])
 
-    if not None:
+    if True:
         return res_list
 
 def food_names():
@@ -29,7 +31,8 @@ def food_names():
         for x in (i['foodItems']):
             food_name_list.append((x['foodName']))
 
-    return food_name_list
+    if True:
+        return food_name_list
 
 if __name__ == "__main__":
 
