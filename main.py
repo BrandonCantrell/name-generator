@@ -15,8 +15,6 @@ def adjectives():
 
     return adj_list
 
-
-
 def restaurants():
     res_list = []
     for res in food_data():
@@ -32,7 +30,6 @@ def food_names():
             food_name_list.append((x['foodName']))
 
     return food_name_list
-
 
 if __name__ == "__main__":
 
