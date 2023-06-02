@@ -1,6 +1,7 @@
 import json
 import random
 
+
 def read_list(filename):
     a = open(filename, "r")
     adj_data = a.read()
